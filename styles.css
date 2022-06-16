@@ -1,0 +1,83 @@
+* {
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  transition: 0.5s;
+  background-color: rgba(73, 73, 73, 0.411);
+}
+#texte1 {
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h1 {
+  font-size: 8em;
+}
+
+img {
+  margin: 0 auto;
+  height: 200px;
+  visibility: hidden;
+}
+#btn {
+  cursor: pointer;
+}
+#btn2 {
+  cursor: pointer;
+  font-weight: bold;
+}
+.show {
+  visibility: visible;
+}
+
+.mouseEvent {
+  cursor: pointer;
+  border: 6px solid red;
+  width: 220px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px;
+}
+.themeCOntainer {
+  position: fixed;
+  top: 0;
+}
+.theme {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+#dark {
+  background: black;
+  position: absolute;
+  top: 10px;
+}
+#blue {
+  background: blue;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+#grey {
+  background: rgba(73, 73, 73, 0.411);
+  position: absolute;
+  top: 10px;
+  left: 165px;
+}
+.darkTheme {
+  background: black;
+  color: white;
+}
+.blueTheme {
+  background: blue;
+  color: white;
+}
+.greyTheme {
+  background: rgba(73, 73, 73, 0.411);
+  color: black;
+}
